@@ -5,9 +5,11 @@ import estilo from './styles';
 export default function TelaHome (props) {
   return (
     <View style={estilo.container}>
-      <Text style={estilo.titulo}>
-        Como navegar?
-      </Text>
+      <View onTouchStart={()=>{props.navigation.navigate('Rota')}}>
+        <Text style={estilo.titulo}>
+          Como navegar?
+        </Text>
+      </View>
 
       <Text style={estilo.texto}>
         Toque nas abas abaixo para navegar entre as telas. 
