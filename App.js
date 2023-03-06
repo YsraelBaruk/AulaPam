@@ -9,6 +9,7 @@ import telaRota from './Componentes/TelaRotas';
 
 const Drawer = createDrawerNavigator();
 //const BottomTab = createBottomTabNavigator();
+//comentario
 
 export default function App() {
   return (
